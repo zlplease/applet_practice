@@ -1,0 +1,76 @@
+image{
+  width: 750rpx;
+  height: 398rpx;
+}
+
+.container image{
+  width: 40rpx;
+  height: 40rpx;
+  position: relative;
+  left: 30rpx;
+}
+
+.id,.psw_sure,.psw_input,.finish{
+  display: flex;
+  width: 614rpx;
+  height: 74rpx;
+  border: 1px solid #ce3c3d;
+  border-radius: 74rpx;
+  margin-left: 68rpx;
+  align-items: center;
+}
+
+.IC{
+  display: flex;
+  margin-left: 68rpx;
+}
+
+.ic{
+  display: flex;
+  width: 360rpx;
+  height: 74rpx;
+  border: 2rpx solid #ce3c3d;
+  border-radius: 74rpx;
+  align-items: center;
+}
+
+.getic{
+  display: flex;
+  height: 74rpx;
+  width: 216rpx;
+  color: white;
+  border-radius: 74px;
+  align-items: center;
+  background-color: #ce3c3d;
+  font-size: 30rpx;
+  position: relative;
+  right: 24rpx;
+}
+
+.id{
+  margin-top: 76rpx;
+}
+.IC,.psw_input,.psw_sure{
+  margin-top: 40rpx;
+}
+
+.finish{
+  margin-top: 52rpx;
+  background-color: #ce3c3d;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
+}
+
+input{
+  position: relative;
+  left: 52rpx;
+}
+
+.attention{
+  font-size: 24rpx;
+  color: #757575;
+  margin-top: 50rpx;
+  text-align: center;
+}

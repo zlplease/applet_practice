@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/login/index",
+    "pages/register/index",
+    "pages/changepsw/index" ,
+    "pages/wait/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ce3c3d",
+    "navigationBarTitleText": "福大校友通",
+    "navigationBarTextStyle":"white"
+  },
+  "sitemapLocation": "sitemap.json"
+}

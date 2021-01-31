@@ -1,0 +1,72 @@
+image {
+  width: 190rpx;
+  height: 308rpx;
+}
+
+Page {
+  font-family: 'Concert One' cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 900rpx;
+  flex-direction: column;
+  background-color: #FFCD00;
+  perspective: 5000rpx;
+}
+
+text{
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.tag {
+  font-size: 128rpx;
+  color: #fff;
+  letter-spacing: -3rpx;
+  animation: 5s rotate ease-in-out infinite;
+}
+
+.name {
+  font-size: 80rpx;
+  color: #fff;
+  letter-spacing: -3rpx;
+}
+
+.tag::before,
+.tag::after {
+  content: 'Welcome';
+  position: absolute;
+  top: 176rpx;
+  left: 108rpx;
+  z-index: -1;
+}
+
+.name::before,
+.name::after {
+  content: 'Friend';
+  position: absolute;
+  top: 336rpx;
+  left: 275rpx;
+  z-index: -1;
+}
+
+.tag::before {
+  color: #009CDE;
+  animation: 5s offset-1 ease-in-out infinites;
+}
+
+.tag::after {
+  color: #003C71;
+  animation: 5s offset-2 ease-in-out infinites;
+}
+
+.name::before {
+  color: #009CDE;
+  animation: 5s offset-1 ease-in-out infinites;
+}
+
+.name::after {
+  color: #003C71;
+  animation: 5s offset-2 ease-in-out infinites;
+}

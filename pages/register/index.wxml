@@ -1,0 +1,27 @@
+<image src="/images/bg.png"/>
+<view class="container">
+    <view class="id">
+        <image src="/icons/telphone.png" mode="aspectFit"></image>
+        <input bindinput="gettelephone" type="number" placeholder="请输入手机号" maxlength="11" placeholder-style="font-size: 12px;color: #A6A5A5;text-align: left"/>
+    </view>
+    <view class="IC">
+      <view class="ic">
+        <image src="/icons/ic.png" mode="aspectFit"></image>
+        <input bindinput="getcode" type="number" placeholder="请输入验证码" maxlength="6" placeholder-style="font-size: 12px;color: #A6A5A5;text-align: left"/>
+    </view>
+    <button bindtap="sendcode" disabled="{{disable}}" class="getic">{{info}}</button>
+    </view>    
+    <view class="psw_input">
+        <image src="/icons/password1.png" mode="aspectFit"></image>
+        <input bindinput="getpassword" type="password" placeholder="请输入密码" placeholder-style="font-size: 12px;color: #A6A5A5;text-align: left"/>
+    </view>
+    <view class="psw_sure">
+        <image src="/icons/password2.png" mode="aspectFit"></image>
+        <input bindinput="getrepassword" type="password" placeholder="确认你的密码" placeholder-style="font-size: 12px;color: #A6A5A5;text-align: left"/>
+    </view>
+    <button bindtap="finish" class="finish">完成注册</button>
+    <view class="attention">
+      <view class="a1">提示:密码为长度在6到20之间</view>
+    <view class="a2">数字、字母、特殊字符两种以上的任意搭配</view>
+    </view>
+</view>

@@ -1,0 +1,9 @@
+page,view,text,swiper,swiper-item,imag,navigator{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+page{
+  --themeColor:#ce3c3d;
+}

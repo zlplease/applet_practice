@@ -1,0 +1,56 @@
+image{
+  width: 750rpx;
+  height: 398rpx;
+}
+
+.container image{
+  width: 40rpx;
+  height: 40rpx;
+  position: relative;
+  left: 30rpx;
+}
+
+.id,.psw,.login{
+  display: flex;
+  width: 614rpx;
+  height: 74rpx;
+  border: 2rpx solid #ce3c3d;
+  border-radius: 74rpx;
+  margin-left: 69rpx;
+  align-items: center;
+}
+
+.id{
+  margin-top: 76rpx;
+  margin-bottom: 36rpx;
+}
+
+input{
+  position: relative;
+  left: 52rpx;
+}
+
+.login{
+  margin-top: 52rpx;
+  background-color: #ce3c3d;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.op{
+  color: #ce3c3d;
+  margin-top: 44rpx;
+  display: flex;
+  font-size: 24rpx;
+}
+
+.register{
+  position: absolute;
+  left: 100rpx;
+}
+
+.forget{
+  position: absolute;
+  right: 100rpx;
+}
